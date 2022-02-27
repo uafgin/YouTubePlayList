@@ -15,7 +15,7 @@ $ yarn
 
 ## build
 
-first of all, build all the dependencies by:
+first of all build all the dependencies by:
 ```bash
 $ yarn build
 ```
