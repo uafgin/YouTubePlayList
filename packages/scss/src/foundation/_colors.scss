@@ -1,0 +1,16 @@
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variable.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+
+/*=============================================
+=                 Buttons                     =
+=============================================*/
+$btn-primary-color: var(--dse-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--dse-btn-primary-bg, $red) !default;
+$btn-primary-bg-hover: var(--dse-btn-primary-bg-hover, $red-dark) !default;

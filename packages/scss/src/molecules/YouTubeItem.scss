@@ -1,0 +1,11 @@
+@import "foundation/all";
+
+.dse-youtube-item {
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+
+    &__channel-title {
+        color: $dark-light
+    }
+}

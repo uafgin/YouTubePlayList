@@ -1,0 +1,18 @@
+@import "foundation/all";
+
+$dimentions: height,
+width;
+
+.dse-dimention {
+    @each $dimention in $dimentions {
+        &_#{$dimention} {
+
+            @each $block,
+            $value in $blocks {
+                &_#{$block} {
+                    #{$dimention}: $value
+                }
+            }
+        }
+    }
+}

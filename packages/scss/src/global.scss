@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    TABLE OF CONTENTS
+\*------------------------------------*/
+
+/**
+ *
+ * FOUNDATIONS................................................
+ * BASE.......................................................
+ */
+
+/*=============================================
+ =                   Foundations               =
+ =============================================*/
+
+@import "foundation/all";
+
+/*==============================================
+  =                   Base                      =
+  =============================================*/
+
+@import "base/reset";
+@import "base/root";
+
+html,
+body,
+#root {
+  height: map-get($blocks, 10b);
+}
+
+body {
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  font-weight: $body-font-weight;
+}
+
+.dse-dimention-inheritance {
+  margin: 0 auto;
+  height: inherit;
+  width: inherit;
+}

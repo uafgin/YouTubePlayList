@@ -1,0 +1,23 @@
+@import "foundation/all";
+
+.dse-input-text {
+    display: flex;
+    outline: none;
+    border: solid 1px $gray;
+    background-image: none;
+    background-color: transparent;
+    @include browserPrefix(box-shadow, none);
+    transition: box-shadow 0.3s ease-in-out;
+    width: inherit;
+
+    &:focus {
+        @include browserPrefix('box-shadow', 0px 0px 6px 0px #{$blue-light});
+    }
+
+    @each $font,
+    $value in $fs {
+        &_#{$font} {
+            font-size: $value;
+        }
+    }
+}

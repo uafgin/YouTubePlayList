@@ -1,0 +1,7 @@
+@import "foundation/all";
+
+.dse-youtube-playlist-container {
+    margin: 0 auto;
+    height: map-get($blocks, 8b);
+    width: map-get($blocks, 8b);
+}

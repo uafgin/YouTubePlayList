@@ -1,0 +1,10 @@
+@import "foundation/all";
+
+.dse-flex-container {
+    display: flex;
+    margin: 0 auto;
+
+    &_verticalalign {
+        align-items: center;
+    }
+}

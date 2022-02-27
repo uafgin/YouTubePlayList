@@ -1,0 +1,20 @@
+@import "foundation/all";
+
+.dse-youtube-list {
+    &_inputs {
+        width: map-get($blocks, 10b);
+        display: flex;
+    }
+
+    &_input_width {
+        width: inherit;
+    }
+
+    &_playlist-box {
+        height: inherit;
+    }
+
+    &_dragplaceholder {
+        list-style: none;
+    }
+}

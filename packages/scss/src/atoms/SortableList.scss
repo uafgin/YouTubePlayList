@@ -1,0 +1,13 @@
+@import "foundation/all";
+
+.dse-sortable-list {
+    list-style: none;
+    overflow: auto;
+    height: inherit;
+    @include padding('none');
+    @include margin('none');
+
+    &_dragicon {
+        cursor: grab;
+    }
+}

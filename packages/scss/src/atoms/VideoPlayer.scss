@@ -1,0 +1,6 @@
+@import "foundation/all";
+
+.dse-videoplayer-container {
+    height: map-get($blocks, 10b);
+    width: map-get($blocks, 10b);
+}
