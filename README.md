@@ -15,7 +15,7 @@ $ yarn
 
 ## build
 
-the first step is building all the dependencies, dont worry its easy just run this line code:
+the first step is building all the dependencies, dont worry its easy! just run this line code:
 ```bash
 $ yarn build
 ```
@@ -35,7 +35,7 @@ $ yarn test
 
 ## running the app
 
-* before running the app make sure port 3001, 4001 is free
+* before running the app make sure port 3001 and 4001 is free
 
 finally now we can run our app by running the next and final line:
 ```bash
