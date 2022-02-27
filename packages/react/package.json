@@ -5,8 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "clean": "rm -rf lib/**/*",
-    "build": "yarn rollup -c",
-    "dev": "yarn build --watch",
+    "build-react": "yarn rollup -c",
+    "dev": "yarn build-react --watch",
     "test": "jest --env=jsdom --verbose",
     "test:watch": "yarn test --watch"
   },
