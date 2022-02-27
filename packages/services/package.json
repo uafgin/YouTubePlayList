@@ -1,0 +1,14 @@
+{
+  "name": "@ds.e/services",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.26.0",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "build": "TSC",
+    "dev": "yarn build -w"
+  }
+}
