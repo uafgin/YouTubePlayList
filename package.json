@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "lerna run build",
+    "build-react": "lerna run build-react",
     "dev": "lerna run dev",
     "test": "lerna run test"
   },
