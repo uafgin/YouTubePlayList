@@ -2,7 +2,7 @@
 
 ## Installation
 
-do you have yarn?, no? then install it:
+this project is based on [yarn](https://yarnpkg.com/), if you dont have it installed please run the next code line.
 
 ```bash
 $ npm install -g yarn
