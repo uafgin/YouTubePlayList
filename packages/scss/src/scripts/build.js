@@ -1,6 +1,11 @@
 const Fs = require("fs");
 const Path = require("path");
 const Sass = require("node-sass");
+const dir = "./lib";
+
+if (!Fs.existsSync(dir)) {
+  Fs.mkdirSync(dir);
+}
 
 const getComponents = () => {
   let allComponents = [];
